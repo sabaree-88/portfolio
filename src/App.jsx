@@ -9,21 +9,11 @@ function App() {
   return (
     <div className="min-h-screen bg-slate-950">
       <Header />
-      <section className="section-scroll">
-        <Hero />
-      </section>
-      <section className="section-scroll">
-        <About />
-      </section>
-      <section className="section-scroll">
-        <Skills />
-      </section>
-      <section className="section-scroll">
-        <Projects />
-      </section>
-      <section className="section-scroll">
-        <Contact />
-      </section>
+      <Hero />
+      <About />
+      <Skills />
+      <Projects />
+      <Contact />
     </div>
   );
 }

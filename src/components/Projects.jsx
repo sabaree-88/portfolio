@@ -4,7 +4,7 @@ export default function Projects() {
   return (
     <section
       id="projects"
-      className="py-6 px-6 md:px-10 bg-gray-900 min-h-screen"
+      className="py-6 px-6 md:px-10"
     >
       <h2 className="text-4xl font-bold text-center text-teal-400 mb-12">
         Projects

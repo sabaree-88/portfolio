@@ -5,3 +5,15 @@
 * {
   box-sizing: border-box;
 }
+html,
+body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+.skills-bg {
+  background-image: url("./bg4.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: overlay;
+}

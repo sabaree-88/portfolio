@@ -16,15 +16,6 @@ export default function AboutMe() {
           </motion.h2>
         </ScrollAnimation>
         <div className="flex flex-col md:flex-row justify-center items-center">
-          <ScrollAnimation animateIn="slideInLeft" initiallyVisible={true}>
-            <div className="w-64 h-64 rounded-full overflow-hidden shadow-lg mb-8 md:mb-0">
-              <img
-                src="https://via.placeholder.com/250"
-                alt="Sabareesh Profile"
-                className="w-full h-full object-cover"
-              />
-            </div>
-          </ScrollAnimation>
           <motion.div
             className="max-w-2xl text-lg font-light md:ml-10"
             initial={{ opacity: 0, x: 100 }}
